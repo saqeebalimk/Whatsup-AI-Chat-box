@@ -1,0 +1,88 @@
+{
+  "scanServices": [
+    {
+      "id": "ultrasound",
+      "name": "Ultrasound / Sonography",
+      "aliases": ["ultrasound", "sonography", "USG", "scan"],
+      "cost": 800,
+      "timings": "9:00 AM – 5:00 PM",
+      "days": "Monday to Saturday",
+      "appointmentRequired": true,
+      "preparation": "Full bladder required for pelvic/abdomen scans – drink 4-6 glasses of water 1 hour before. No preparation needed for other areas.",
+      "reportingTime": "Same day (30-60 minutes after scan)",
+      "notes": "Obstetric (pregnancy) scans also available."
+    },
+    {
+      "id": "echo_2d",
+      "name": "2D Echocardiography (2D Echo)",
+      "aliases": ["2D echo", "echo", "echocardiogram", "heart scan"],
+      "cost": 1500,
+      "timings": "10:00 AM – 1:00 PM",
+      "days": "Monday, Wednesday, Friday",
+      "appointmentRequired": true,
+      "preparation": "No special preparation required. Avoid heavy meals 2 hours before.",
+      "reportingTime": "Same day (within 2 hours)",
+      "notes": "Cardiologist report available. Please bring previous ECG/Echo reports if any."
+    },
+    {
+      "id": "endoscopy",
+      "name": "Upper GI Endoscopy (OGD Scope)",
+      "aliases": ["endoscopy", "OGD scope", "gastroscopy", "stomach scope"],
+      "cost": 3000,
+      "timings": "9:00 AM – 11:00 AM",
+      "days": "Monday, Wednesday, Friday (by appointment)",
+      "appointmentRequired": true,
+      "preparation": "STRICTLY FASTING for minimum 8 hours before procedure. No food, liquids, or water. Arrange for someone to accompany you as sedation may be used.",
+      "reportingTime": "Immediate verbal report. Written report same day.",
+      "notes": "Performed by Dr. Suresh Rao (Gastroenterologist). Mild sedation available on request."
+    },
+    {
+      "id": "colonoscopy",
+      "name": "Colonoscopy",
+      "aliases": ["colonoscopy", "colon scope", "large intestine scope"],
+      "cost": 5000,
+      "timings": "9:00 AM – 11:00 AM",
+      "days": "Tuesday, Thursday (by appointment)",
+      "appointmentRequired": true,
+      "preparation": "Bowel preparation required: clear liquid diet 1 day before + laxative medication provided by doctor. Must fast from midnight before procedure.",
+      "reportingTime": "Immediate verbal report. Written report within 24 hours.",
+      "notes": "Performed by Dr. Suresh Rao. Escort required. Not suitable for patients with certain cardiac conditions – inform doctor."
+    },
+    {
+      "id": "cbct",
+      "name": "CBCT (Cone Beam CT Scan)",
+      "aliases": ["CBCT", "cone beam CT", "dental CT", "3D dental scan"],
+      "cost": 2500,
+      "timings": "9:00 AM – 4:00 PM",
+      "days": "Monday to Saturday",
+      "appointmentRequired": false,
+      "preparation": "Remove all metal objects (jewellery, spectacles, piercings). No other preparation required.",
+      "reportingTime": "Same day (1-2 hours)",
+      "notes": "Primarily used for dental and maxillofacial imaging. Commonly used before dental implants or surgeries."
+    },
+    {
+      "id": "opg",
+      "name": "OPG (Orthopantomogram / Dental X-Ray)",
+      "aliases": ["OPG", "dental X-ray", "panoramic X-ray", "full jaw X-ray"],
+      "cost": 700,
+      "timings": "9:00 AM – 5:00 PM",
+      "days": "Monday to Saturday",
+      "appointmentRequired": false,
+      "preparation": "Remove all dental appliances, jewellery. No other preparation needed.",
+      "reportingTime": "Same day (30 minutes)",
+      "notes": "Provides a panoramic view of the entire jaw, teeth, and surrounding structures."
+    },
+    {
+      "id": "xray",
+      "name": "X-Ray",
+      "aliases": ["X-ray", "Xray", "radiograph", "chest X-ray", "bone X-ray"],
+      "cost": 400,
+      "timings": "9:00 AM – 5:00 PM",
+      "days": "Monday to Saturday",
+      "appointmentRequired": false,
+      "preparation": "No preparation required. Remove metal objects from the area being X-rayed. Inform technician if pregnant.",
+      "reportingTime": "Same day (1-2 hours)",
+      "notes": "Various views available: Chest, Spine, Abdomen, Limbs etc. Doctor's referral may be needed for insurance claims."
+    }
+  ]
+}

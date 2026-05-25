@@ -1,0 +1,64 @@
+{
+  "doctors": [
+    {
+      "id": "dr_sharma",
+      "name": "Dr. Rohan Sharma",
+      "specialty": "Internal Medicine / General Physician",
+      "qualification": "MBBS, MD (Internal Medicine)",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "timings": "10:00 AM – 2:00 PM",
+      "eveningTimings": "5:00 PM – 8:00 PM",
+      "consultationFee": 500,
+      "slots": ["10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM", "12:00 PM", "12:30 PM", "1:00 PM", "1:30 PM", "5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM"],
+      "notes": "Please arrive 10 minutes early for new patients."
+    },
+    {
+      "id": "dr_patel",
+      "name": "Dr. Priya Patel",
+      "specialty": "Gynaecology & Obstetrics",
+      "qualification": "MBBS, MS (Obs & Gynae)",
+      "days": ["Monday", "Wednesday", "Friday", "Saturday"],
+      "timings": "10:00 AM – 1:00 PM",
+      "eveningTimings": "4:00 PM – 6:00 PM",
+      "consultationFee": 700,
+      "slots": ["10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM", "12:00 PM", "12:30 PM", "4:00 PM", "4:30 PM", "5:00 PM", "5:30 PM"],
+      "notes": "Available for antenatal check-ups and women's health concerns."
+    },
+    {
+      "id": "dr_kumar",
+      "name": "Dr. Anil Kumar",
+      "specialty": "Orthopaedics",
+      "qualification": "MBBS, MS (Ortho)",
+      "days": ["Tuesday", "Thursday", "Saturday"],
+      "timings": "11:00 AM – 2:00 PM",
+      "eveningTimings": null,
+      "consultationFee": 600,
+      "slots": ["11:00 AM", "11:30 AM", "12:00 PM", "12:30 PM", "1:00 PM", "1:30 PM"],
+      "notes": "Specialist in joint replacement and sports injuries."
+    },
+    {
+      "id": "dr_mehta",
+      "name": "Dr. Sneha Mehta",
+      "specialty": "Paediatrics",
+      "qualification": "MBBS, MD (Paediatrics)",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "timings": "9:00 AM – 12:00 PM",
+      "eveningTimings": "5:00 PM – 7:00 PM",
+      "consultationFee": 500,
+      "slots": ["9:00 AM", "9:30 AM", "10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM", "5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM"],
+      "notes": "Newborn care, vaccination schedules, and child development."
+    },
+    {
+      "id": "dr_rao",
+      "name": "Dr. Suresh Rao",
+      "specialty": "Gastroenterology",
+      "qualification": "MBBS, MD, DM (Gastroenterology)",
+      "days": ["Monday", "Wednesday", "Friday"],
+      "timings": "10:00 AM – 1:00 PM",
+      "eveningTimings": null,
+      "consultationFee": 800,
+      "slots": ["10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM", "12:00 PM", "12:30 PM"],
+      "notes": "Specialist for endoscopy, colonoscopy, and liver conditions."
+    }
+  ]
+}

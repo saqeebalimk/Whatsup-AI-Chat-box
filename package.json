@@ -1,0 +1,19 @@
+{
+  "name": "parkside-whatsapp-chatbot",
+  "version": "1.0.0",
+  "description": "AI-powered WhatsApp chatbot for Parkside Medical Center",
+  "private": true,
+  "workspaces": [
+    "server",
+    "dashboard"
+  ],
+  "scripts": {
+    "start:server": "npm run start --workspace=server",
+    "dev:server": "npm run dev --workspace=server",
+    "dev:dashboard": "npm run dev --workspace=dashboard",
+    "install:all": "npm install && npm install --workspace=server && npm install --workspace=dashboard"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

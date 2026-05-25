@@ -1,0 +1,137 @@
+{
+  "labTests": [
+    {
+      "id": "cbc",
+      "name": "Complete Blood Count (CBC)",
+      "aliases": ["blood count", "haemogram", "hemogram", "CBC"],
+      "price": 250,
+      "fasting": false,
+      "preparation": "No special preparation required.",
+      "turnaroundTime": "Same day (3-4 hours)",
+      "category": "Hematology"
+    },
+    {
+      "id": "lipid_profile",
+      "name": "Lipid Profile",
+      "aliases": ["cholesterol test", "lipid panel", "lipid"],
+      "price": 500,
+      "fasting": true,
+      "fastingHours": 12,
+      "preparation": "Fast for 12 hours (water is allowed). Avoid fatty food the night before.",
+      "turnaroundTime": "Same day (4-6 hours)",
+      "category": "Biochemistry"
+    },
+    {
+      "id": "thyroid",
+      "name": "Thyroid Function Test (TFT / TSH)",
+      "aliases": ["thyroid test", "TSH", "T3 T4", "thyroid function"],
+      "price": 400,
+      "fasting": false,
+      "preparation": "No fasting required. Take test in morning if possible.",
+      "turnaroundTime": "Same day (4-6 hours)",
+      "category": "Endocrinology"
+    },
+    {
+      "id": "blood_sugar_fasting",
+      "name": "Blood Sugar (Fasting)",
+      "aliases": ["fasting sugar", "FBS", "fasting glucose", "sugar test fasting"],
+      "price": 150,
+      "fasting": true,
+      "fastingHours": 8,
+      "preparation": "Fast for 8 hours. Water is allowed.",
+      "turnaroundTime": "Same day (1-2 hours)",
+      "category": "Biochemistry"
+    },
+    {
+      "id": "blood_sugar_pp",
+      "name": "Blood Sugar (Post Prandial / PP)",
+      "aliases": ["PP sugar", "post meal sugar", "blood sugar PP"],
+      "price": 150,
+      "fasting": false,
+      "preparation": "Have a normal meal. The test is taken 2 hours after eating.",
+      "turnaroundTime": "Same day (1-2 hours)",
+      "category": "Biochemistry"
+    },
+    {
+      "id": "hba1c",
+      "name": "HbA1c (Glycated Haemoglobin)",
+      "aliases": ["HbA1c", "glycated hemoglobin", "diabetes 3 month test"],
+      "price": 600,
+      "fasting": false,
+      "preparation": "No fasting required.",
+      "turnaroundTime": "Same day (4-6 hours)",
+      "category": "Biochemistry"
+    },
+    {
+      "id": "liver_function",
+      "name": "Liver Function Test (LFT)",
+      "aliases": ["liver test", "LFT", "liver function"],
+      "price": 600,
+      "fasting": true,
+      "fastingHours": 8,
+      "preparation": "Fast for 8 hours before the test.",
+      "turnaroundTime": "Same day (4-6 hours)",
+      "category": "Biochemistry"
+    },
+    {
+      "id": "kidney_function",
+      "name": "Kidney Function Test (KFT / RFT)",
+      "aliases": ["kidney test", "KFT", "RFT", "renal function", "creatinine"],
+      "price": 600,
+      "fasting": false,
+      "preparation": "No fasting required. Stay well hydrated.",
+      "turnaroundTime": "Same day (4-6 hours)",
+      "category": "Biochemistry"
+    },
+    {
+      "id": "urine_routine",
+      "name": "Urine Routine & Microscopy",
+      "aliases": ["urine test", "urine routine", "urine examination"],
+      "price": 150,
+      "fasting": false,
+      "preparation": "Collect mid-stream urine sample in the provided container. First morning sample preferred.",
+      "turnaroundTime": "Same day (2-3 hours)",
+      "category": "Clinical Pathology"
+    },
+    {
+      "id": "vitamin_d",
+      "name": "Vitamin D (25-OH)",
+      "aliases": ["vitamin D test", "Vitamin D3", "25 hydroxy vitamin D"],
+      "price": 800,
+      "fasting": false,
+      "preparation": "No fasting required.",
+      "turnaroundTime": "Next day (24 hours)",
+      "category": "Biochemistry"
+    },
+    {
+      "id": "vitamin_b12",
+      "name": "Vitamin B12",
+      "aliases": ["B12 test", "cobalamin", "vitamin B12"],
+      "price": 700,
+      "fasting": false,
+      "preparation": "No fasting required.",
+      "turnaroundTime": "Next day (24 hours)",
+      "category": "Biochemistry"
+    },
+    {
+      "id": "dengue",
+      "name": "Dengue NS1 Antigen + IgM/IgG",
+      "aliases": ["dengue test", "dengue NS1", "dengue fever test"],
+      "price": 900,
+      "fasting": false,
+      "preparation": "No special preparation required.",
+      "turnaroundTime": "Same day (4-6 hours)",
+      "category": "Microbiology & Serology"
+    },
+    {
+      "id": "covid",
+      "name": "COVID-19 RT-PCR",
+      "aliases": ["COVID test", "corona test", "RTPCR", "RT-PCR"],
+      "price": 500,
+      "fasting": false,
+      "preparation": "No eating or drinking 30 minutes before sample collection.",
+      "turnaroundTime": "24 hours",
+      "category": "Microbiology & Serology"
+    }
+  ]
+}

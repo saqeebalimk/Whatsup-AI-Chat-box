@@ -1,0 +1,74 @@
+{
+  "clinic": {
+    "name": "Parkside Medical Center",
+    "address": "123 Parkside Road, [Your City], [State] - XXXXXX",
+    "googleMapsLink": "https://maps.google.com/?q=Parkside+Medical+Center",
+    "phone": "+91-XXXXXXXXXX",
+    "emergencyPhone": "+91-XXXXXXXXXX",
+    "email": "info@parksidemedical.com",
+    "workingHours": {
+      "weekdays": "Monday – Saturday: 9:00 AM – 8:00 PM",
+      "sunday": "Sunday: 10:00 AM – 1:00 PM (Emergency only)"
+    },
+    "pharmacyTimings": "Monday – Saturday: 8:00 AM – 9:00 PM | Sunday: 9:00 AM – 1:00 PM",
+    "labTimings": "Monday – Saturday: 7:30 AM – 6:00 PM | Sunday: 7:30 AM – 11:00 AM",
+    "parking": "Free parking available for patients. Capacity: 30 vehicles.",
+    "insuranceAccepted": ["Star Health", "New India Assurance", "United India", "ICICI Lombard", "Bajaj Allianz", "HDFC Ergo", "Reliance General", "Max Bupa"],
+    "cashlessInsurance": true,
+    "dayCareAvailable": true,
+    "admissionAvailable": true,
+    "icuAvailable": false,
+    "emergencyAvailable": true,
+    "ambulanceAvailable": false
+  },
+  "faqs": [
+    {
+      "id": "location",
+      "question": "Where is Parkside Medical Center located?",
+      "keywords": ["location", "address", "where", "directions", "how to reach", "map"],
+      "answer": "📍 *Parkside Medical Center*\n123 Parkside Road, [Your City], [State] - XXXXXX\n\n🗺️ Google Maps: https://maps.google.com/?q=Parkside+Medical+Center\n\n🅿️ Free parking is available for patients."
+    },
+    {
+      "id": "working_hours",
+      "question": "What are the clinic working hours?",
+      "keywords": ["timing", "hours", "open", "close", "time", "working hours", "schedule"],
+      "answer": "🕐 *Parkside Medical Center Timings:*\n\n📅 Monday – Saturday: 9:00 AM – 8:00 PM\n📅 Sunday: 10:00 AM – 1:00 PM (Emergency Only)\n\nFor OPD timings of specific doctors, please select *Doctor Timings* from the menu."
+    },
+    {
+      "id": "emergency",
+      "question": "Is emergency service available?",
+      "keywords": ["emergency", "urgent", "24 hours", "critical", "accident", "ambulance"],
+      "answer": "🚨 *Emergency Contact*\n\nFor medical emergencies, please call:\n📞 *+91-XXXXXXXXXX* (Emergency Line)\n\nOur emergency team is available 24/7. Please call immediately – do not wait for a chatbot response."
+    },
+    {
+      "id": "insurance",
+      "question": "Which insurance is accepted?",
+      "keywords": ["insurance", "cashless", "mediclaim", "health card", "TPA"],
+      "answer": "🏥 *Insurance Accepted at Parkside Medical Center:*\n\nStar Health, New India Assurance, United India, ICICI Lombard, Bajaj Allianz, HDFC Ergo, Reliance General, Max Bupa\n\n✅ *Cashless facility available* for most major insurers.\n\nFor specific queries, please contact reception."
+    },
+    {
+      "id": "pharmacy",
+      "question": "What are the pharmacy timings?",
+      "keywords": ["pharmacy", "medicine", "chemist", "drug", "tablet", "medication"],
+      "answer": "💊 *Pharmacy Timings:*\n\n📅 Monday – Saturday: 8:00 AM – 9:00 PM\n📅 Sunday: 9:00 AM – 1:00 PM\n\nWe stock branded and generic medicines. Prescription-based dispensing."
+    },
+    {
+      "id": "lab_timings",
+      "question": "What are the lab timings?",
+      "keywords": ["lab timing", "blood test time", "sample collection", "laboratory hours"],
+      "answer": "🧪 *Lab / Pathology Timings:*\n\n📅 Monday – Saturday: 7:30 AM – 6:00 PM\n📅 Sunday: 7:30 AM – 11:00 AM\n\n⏰ *Early morning fasting samples recommended between 7:30 AM – 9:00 AM.*"
+    },
+    {
+      "id": "daycare",
+      "question": "Do you have day care or admission facilities?",
+      "keywords": ["admission", "daycare", "day care", "bed", "admit", "inpatient", "ward"],
+      "answer": "🏥 *Day Care & Admission:*\n\n✅ Day care procedures available (minor surgeries, IV infusions, endoscopy under sedation etc.)\n✅ Short-term admission available\n\nFor admission-related queries, please contact our reception directly or select *Talk to Reception* from the menu."
+    },
+    {
+      "id": "parking",
+      "question": "Is parking available?",
+      "keywords": ["parking", "car park", "vehicle", "bike parking"],
+      "answer": "🅿️ *Free parking is available* for all patients and attendants.\n\nCapacity: 30 vehicles (cars & two-wheelers)\nLocation: Ground level, clinic premises."
+    }
+  ]
+}
